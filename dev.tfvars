@@ -1,0 +1,6 @@
+aws_region            = "us-east-1"
+source_bucket_name    = "my-source-bucket-piyush"
+dest_bucket_name      = "my-destination-bucket-piyush"
+lambda_function_name  = "image-processor-fn"
+lambda_role_name      = "lambda-execution-role"
+lambda_policy_name    = "lambda-s3-access-policy"
